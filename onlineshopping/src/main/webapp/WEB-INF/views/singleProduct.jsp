@@ -26,10 +26,10 @@
 		<!-- Display the product image -->
 		<div class="col-xs-12 col-sm-4">
 		
-			<div class="thumbnail">
-							
+			<div class="thumbnail shadow">
+				<div class="inner">	
 				<img src="${images}/${product.code}.jpg" class="img img-responsive"/>
-						
+					</div>	
 			</div>
 		
 		</div>

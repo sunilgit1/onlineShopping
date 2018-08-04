@@ -18,7 +18,7 @@
 
 				<div class="panel-heading">
 
-					<h4>Product Management</h4>
+					<h4><font color="white">Product Management</font></h4>
 
 				</div>
 

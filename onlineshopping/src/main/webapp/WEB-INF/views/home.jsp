@@ -28,19 +28,19 @@
 						<div class="carousel-inner">
 							
 							<div class="item active">
-								<img class="slide-image" src="${images}/banner1.jpg"
+								<img class="slide-image" src="${images}/b3.jpg"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="${images}/banner2.jpg"
+								<img class="slide-image" src="${images}/b6.jpg"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="${images}/banner3.jpg"
+								<img class="slide-image" src="${images}/b5.jpg"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="${images}/banner4.jpg"
+								<img class="slide-image" src="${images}/b2.jpg"
 									alt="">
 							</div>
 						</div>
@@ -66,17 +66,21 @@
                 <div class="row is-table-row">
                 	
                     <div class="col-sm-4" ng-repeat="product in pCtrl.mvProducts">                    	
-                        <div class="thumbnail">
-                            <img ng-src="${images}/{{product.code}}.jpg" alt="{{product.name}}" class="landingImg">
-                            <h5>{{product.name}}</h5>
+                        <div class="thumbnail shadow">
+                        <div class="text-center">
+                        <div class="inner">
+                          <img ng-src="${images}/{{product.code}}.jpg" alt="{{product.name}}" class="img img-responsive" class="landingImg"> 
+                           </div>
+                           <h5><b>{{product.name}}</b></h5>
                             <hr/>
                             <div class="caption">
-                                <h4 class="pull-right">&#8377; {{product.unitPrice}}</h4>
                                 <p>{{product.description}}</p>
-                                <a ng-href="${contextRoot}/show/{{product.id}}/product" class="btn btn-primary pull-right">View</a>
+                                 <h4>&#8377; {{product.unitPrice}}</h4>
+                                <a ng-href="${contextRoot}/show/{{product.id}}/product" class="btn btn-primary ">View</a>
                             </div>
                         </div>
                         
+                    </div>
                     </div>
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
@@ -96,14 +100,18 @@
                <div class="row is-table-row">
                 	
                     <div class="col-sm-4" ng-repeat="product in pCtrl.mpProducts">                    	
-                        <div class="thumbnail">
-                            <img ng-src="${images}/{{product.code}}.jpg" alt="{{product.name}}" class="landingImg">
-                            <h5>{{product.name}}</h5>
+                        <div class="thumbnail shadow">
+                        <div class="text-center">
+                        <div class="inner">
+                           <img ng-src="${images}/{{product.code}}.jpg" alt="{{product.name}}" class="img img-responsive" class="landingImg">
+                            </div>
+                            <h5><b>{{product.name}}</b></h5>
                             <hr/>
-                            <div class="caption">
-                                <h4 class="pull-right">&#8377; {{product.unitPrice}}</h4>
+                            <div class="caption">  
                                 <p>{{product.description}}</p>
-                                <a ng-href="${contextRoot}/show/{{product.id}}/product" class="btn btn-primary pull-right">View</a>
+                                 <h4>&#8377; {{product.unitPrice}}</h4>
+                                <a ng-href="${contextRoot}/show/{{product.id}}/product" class="btn btn-primary ">View</a>
+                            </div>
                             </div>
                         </div>
                     </div>

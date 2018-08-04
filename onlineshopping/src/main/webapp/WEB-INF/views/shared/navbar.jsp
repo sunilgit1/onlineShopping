@@ -46,8 +46,8 @@
 			    	</security:authorize>
 			    	<security:authorize access="isAuthenticated()">
 						<li class="dropdown" id="userModel">
-						  <a class="btn btn-default dropdown-toggle" href="javascript:void(0)" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-						    ${userModel.fullName}
+						 <a class="btn btn-default dropdown-toggle" href="javascript:void(0)" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						  <font color="blue"> ${userModel.fullName}</font>
 						    <span class="caret"></span>
 						  </a>
 						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
